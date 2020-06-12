@@ -9,5 +9,9 @@ describe('Spellcheck', function() {
     it('it returns "spnelt"', function () {
       expect(spellcheck.check("spnelt")).toEqual('~spnelt~')
     })
+    
+    it("When given the word correclty it returns ~correclty~", function () {
+      expect(spellcheck.check('correclty')).toEqual('~correclty~')
+    })
   })
 })
