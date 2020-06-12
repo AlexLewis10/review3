@@ -14,4 +14,13 @@ describe('Spellcheck', function() {
       expect(spellcheck.check('correclty')).toEqual('~correclty~')
     })
   })
+  
+  describe('When a word a word is spelt correctly', function () {
+    it('returns the word without modification', function () {
+      expect(spellcheck.check("are")).toEqual('are')
+    })
+  })
+
+  // describe('Returns the string with the incorrect word correctly ')
+
 })
