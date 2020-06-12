@@ -21,6 +21,10 @@ describe('Spellcheck', function() {
     })
   })
 
-  // describe('Returns the string with the incorrect word correctly ')
+  describe('Returns the string with the incorrect word correctly', function ( ) {
+    it('returns the correct string', function () {
+      expect(spellcheck.check('are spnelt')).toEqual("are ~spnelt~")
+    })
+  })
 
 })

@@ -1,3 +1,6 @@
+A simple spellchecker as part of a review.
+This project is in a very early stage, and is by no means finished. It is more like a mock tech test.
+
 Input String
 Single word or sentence
 Run through all the words
