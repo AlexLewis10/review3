@@ -1,6 +1,6 @@
 function Spellcheck () {
 }
 
-Spellcheck.prototype.check = function () {
-  return '~spnelt~'
+Spellcheck.prototype.check = function (word) {
+  return '~'+ word +'~'
 }

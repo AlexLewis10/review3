@@ -6,8 +6,8 @@ describe('Spellcheck', function() {
   })
 
   describe('Returns the word with ~', function () {
-    it('it returns "~spnelt~"', function () {
-      expect(spellcheck.check()).toEqual('~spnelt~')
+    it('it returns "spnelt"', function () {
+      expect(spellcheck.check("spnelt")).toEqual('~spnelt~')
     })
   })
 })
