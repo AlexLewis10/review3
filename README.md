@@ -24,10 +24,10 @@ OUTPUT "These words are ~spnelt~ ~correclty~"
 
 | INPUT | OUTPUT | 
 |-------|--------|
-| "spnelt" |  ~spnelt~ |
+| spnelt |  ~spnelt~ |
 | correclty | ~correclty~ | 
-| "are"     | "are" |
-| "are spnelt" | "are ~spnelt~ |
-| "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
+| are     | "are" |
+| are spnelt | "are ~spnelt~ |
+| These words are spnelt correclty | These words are ~spnelt~ ~correclty~
 | 1   |  Error |
 
