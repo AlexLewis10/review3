@@ -1,4 +1,6 @@
-A simple spellchecker as part of a review.
+## Spell Checker
+
+A simple spell checker as part of a review.
 This project is in a very early stage, and is by no means finished. 
 It is more like a mock tech test. The rest of this readme are the notes that I made as I was taking a brief.
 
