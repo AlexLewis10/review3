@@ -23,6 +23,7 @@ INPUT "These words are spnelt correclty" 
 OUTPUT "These words are ~spnelt~ ~correclty~"
 
 | INPUT | OUTPUT | 
+|-------|--------|
 | "spnelt" |  ~spnelt~ |
 | correclty | ~correclty~ | 
 | "are"     | "are" |
